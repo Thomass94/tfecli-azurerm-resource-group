@@ -1,5 +1,6 @@
 terraform {
   backend "remote" {
+    hostname     = "<my-tfe-hostname>"
     organization = "<my-tfe-org-name>"
 
     workspaces {
